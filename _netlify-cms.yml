@@ -1,0 +1,37 @@
+auto_generator:
+  post:
+    # If you have multiple Post folders, define multiple here, see https://github.com/jiangtj/blog/blob/master/netlify-cms.yaml
+    all_posts:
+      # set to false, turn off the default Post
+      #enabled: true
+      label: "Post"
+      folder: "source/_posts"
+      create: true
+      editor:
+        preview: true
+  # PageGeneration Configuration
+  page:
+    enabled: true
+    config:
+      label: "Page"
+      # By default, deleting Page files is prohibited.
+      delete: false
+      editor:
+        preview: true
+
+global_fields:
+  # Overwrite time format by hexo configuration
+  over_format: true
+  # default fields
+  default:
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm:ss", format: "YYYY-MM-DD HH :mm:ss", required: false}
+    - {label: "Tags", name: "tags", widget: "list", required: false}
+    - {label: "Categories", name: "categories", widget: "list", required: false}
+    - {label: "Body", name: "body", widget: "markdown", required: false}
+    - {label: "Permalink", name: "permalink", widget: "string", required: false}
+    - {label: "Comments", name: "comments", widget: "boolean", default: true, required: false}
+  # default post fields, if set, posts fields will be taken from here
+  #post:
+  # default page fields, the same reason
+  #page:
