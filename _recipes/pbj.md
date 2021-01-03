@@ -2,8 +2,9 @@
 name: Peanut Butter & Jelly
 author: Aidan
 categories:
-- sandwich fast
 - grape
+- sandwich
+- fast
 ingredients: bread jelly "peanut butter"
 permalink: "/recipes/pbj/"
 
