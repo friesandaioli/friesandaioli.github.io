@@ -2,7 +2,9 @@
 name: Ice Cream Sandwich
 author: Aidan
 categories: sandwich fast dessert
-ingredients: cookie "ice cream"
+ingredients:
+- 2 Cookies
+- Ice cream
 permalink: /recipes/ice-cream-sandwich/
 ---
 1. Lay your cookies down flat side-by-side.
