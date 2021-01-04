@@ -33,6 +33,7 @@ instagram_username: friesandaioli
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 collections:
   recipes:
