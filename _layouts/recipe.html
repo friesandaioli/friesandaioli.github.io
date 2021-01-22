@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+
+<body>
+
+{%- include header.html -%}
+
+<main class="recipe-content" aria-label="Content">
+    <header>
+        <h1>{{ site.title }}</h1>
+        <h2>{{ page.name }}</h2>
+        <h6>by {{ page.author }}</h6>
+    </header>
+    <section id="ingredients">
+        <ul>
+            {%- for ingredient in page.ingredients -%}
+            <li>{{ingredient}}</li>
+            {%- endfor -%}
+        </ul>
+    </section>
+    <section id="procedure">
+        {{ content }}
+    </section>
+</main>
+
+{%- include footer.html -%}
+
+</body>

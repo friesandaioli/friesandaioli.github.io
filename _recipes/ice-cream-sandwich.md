@@ -1,4 +1,5 @@
 ---
+layout: recipe
 name: Ice Cream Sandwich
 author: Aidan
 categories: sandwich fast dessert

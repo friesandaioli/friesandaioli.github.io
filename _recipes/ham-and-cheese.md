@@ -1,4 +1,5 @@
 ---
+layout: recipe
 name: Ham & Cheese
 author: Aidan
 categories: sandwich fast

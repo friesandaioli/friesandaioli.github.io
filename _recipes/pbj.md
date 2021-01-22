@@ -1,4 +1,5 @@
 ---
+layout: recipe
 name: Peanut Butter & Jelly
 author: Aidan
 categories:
