@@ -1,3 +1,10 @@
+# From gatsby-starter-default
+
+# dotenv environment variable files
+.env*
+
+# gatsby files
+public
 
 # Created by https://www.toptal.com/developers/gitignore/api/osx,linux,node,yarn,webstorm+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=osx,linux,node,yarn,webstorm+all
@@ -135,7 +142,8 @@ dist
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
