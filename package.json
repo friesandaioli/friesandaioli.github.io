@@ -1,12 +1,6 @@
 {
-  "name": "gatsby-london",
+  "name": "firesandaioli",
   "private": true,
-  "description": "A custom, image-centric theme for Gatsby",
-  "version": "1.0.0",
-  "author": "Imed Adel <aadelimed@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/ImedAdel/gatsby-london/issues"
-  },
   "dependencies": {
     "gatsby": "^2.31.1",
     "gatsby-image": "^2.10.0",
@@ -45,20 +39,6 @@
     "postcss-easy-import": "^3.0.0",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0"
-  },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby",
-    "ghost",
-    "gallery",
-    "blog",
-    "starter"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ImedAdel/gatsby-london.git"
   },
   "scripts": {
     "build": "gatsby build",
