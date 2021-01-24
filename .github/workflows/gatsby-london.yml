@@ -3,7 +3,7 @@ name: Deploy Gatsby
 on:
   push:
     branches:
-      - gatsby
+      - gatsby-london
 
 jobs:
   build:
@@ -13,4 +13,4 @@ jobs:
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
           access-token: ${{ secrets.JEKYLL_PAT }}
-          deploy-branch: getsby-publish
+          deploy-branch: gatsby-london-publish
